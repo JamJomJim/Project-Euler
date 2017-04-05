@@ -16,7 +16,7 @@ def parseNum(filename, shouldprint):
 
 
 def answer():
-    pyramid = parseNum("Max Path Sum 2.txt", True)
+    pyramid = parseNum("Problem 67.txt", True)
     print("")
     for i in range(len(pyramid) - 2, -1, -1):
         for j in range(len(pyramid[i])):

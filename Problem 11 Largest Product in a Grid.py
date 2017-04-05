@@ -16,7 +16,7 @@ def parseNum(filename, shouldprint):
 
 
 def answer():
-    numarray = parseNum("Number Grid.txt", False)
+    numarray = parseNum("Problem 11.txt", False)
     maxprod = 0
     for y in range(len(numarray)):
         for x in range(len(numarray[y])):
