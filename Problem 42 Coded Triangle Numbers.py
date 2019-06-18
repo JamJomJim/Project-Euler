@@ -18,7 +18,7 @@ def create_triangular_list(limit):
 letter_to_int = dict()
 for index, letter in enumerate(string.ascii_uppercase, 1):
     letter_to_int[letter] = index
-words = parseNum("Problem 42.txt")
+words = parseNum("Problem Text Files/Problem 42.txt")
 amount = 0
 tri_set = set(create_triangular_list(1000))
 for word in words:
