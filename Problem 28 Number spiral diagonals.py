@@ -9,4 +9,5 @@ def answer():
         increment += 2
     print(total)
 
+
 answer()
