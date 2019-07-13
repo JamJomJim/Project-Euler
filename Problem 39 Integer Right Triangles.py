@@ -1,6 +1,6 @@
 def answer():
-    highestSolutions = 0
-    bestP = 1
+    highest_solutions = 0
+    best_p = 1
     for p in range(1, 1001):
         print(p)
         solutions = 0
@@ -10,10 +10,11 @@ def answer():
                     break
                 if float(p - a - b) == (a ** 2 + b ** 2) ** (1/2):
                     solutions += 1
-        if solutions > highestSolutions:
-            highestSolutions = solutions
-            bestP = p
+        if solutions > highest_solutions:
+            highest_solutions = solutions
+            best_p = p
 
-    print(bestP)
+    print(best_p)
+
 
 answer()
